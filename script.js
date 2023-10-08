@@ -158,7 +158,7 @@ productList.forEach((ele,index) => {
 productList.forEach((ele,index) => {
     productList[index].addEventListener("click", function(){
         const showElement = ele.querySelector('.name');
-        cartList.innerText 
+        cartList.appendChild(showElement);
 
     })
 })
